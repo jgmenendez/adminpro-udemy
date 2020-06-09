@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 })
 export class ModalUploadComponent implements OnInit {
   imagenSubir: File;
-  imagenTemp: string;
+  imagenTemp: any;
 
   constructor(public _subirArchivoService: SubirArchivoService, public _modalUploadService: ModalUploadService) { }
 
